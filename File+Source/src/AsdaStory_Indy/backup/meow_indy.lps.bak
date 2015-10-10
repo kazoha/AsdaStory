@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="meow_indy.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="47" Y="13"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\indy-10.2.0.1\lazarus\IdAboutVCL.pas"/>
+        <UnitName Value="IdAboutVCL"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="8"/>
+        <CursorPos X="4" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\indy-10.2.0.1\fpc\IdDiscardServer.pas"/>
+        <UnitName Value="IdDiscardServer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="71" Y="24"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\indy-10.2.0.1\lazarus\IdCoreDsnRegister.pas"/>
+        <UnitName Value="IdCoreDsnRegister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="36" Y="51"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\components\todolist\todolistlaz.pas"/>
+        <UnitName Value="ToDoListLaz"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="33" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="10" Column="32" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="8" Column="1" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="10" Column="31" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="5" Column="133" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="11" Column="23" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="10" Column="32" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="meow_indy.dpr"/>
+        <Caret Line="10" Column="32" TopLine="7"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

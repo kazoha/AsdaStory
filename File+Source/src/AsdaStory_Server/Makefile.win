@@ -1,0 +1,63 @@
+# Project: meow_server5
+# Makefile created by Dev-C++ 5.8.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = meow_server5_private.res
+OBJ      = meow_main.o char_thread.o map_thread.o meow_char.o meow_inv.o meow_sess.o meow_nice_pkt.o meow_npc.o meow_mob.o meow_portal.o meow_drop.o $(RES)
+LINKOBJ  = meow_main.o char_thread.o map_thread.o meow_char.o meow_inv.o meow_sess.o meow_nice_pkt.o meow_npc.o meow_mob.o meow_portal.o meow_drop.o $(RES)
+LIBS     = -L"C:/MinGW/lib" -static-libgcc mp_sys/svm_sys.a
+INCS     = -I"C:/MinGW/include" -I"C:/MinGW/lib/gcc/mingw32/4.8.1/include"
+CXXINCS  = -I"C:/MinGW/include" -I"C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++"
+BIN      = ../../bin/MEOW_Server/meow_server5.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+meow_main.o: meow_main.cpp
+	$(CPP) -c meow_main.cpp -o meow_main.o $(CXXFLAGS)
+
+char_thread.o: char_thread.cpp
+	$(CPP) -c char_thread.cpp -o char_thread.o $(CXXFLAGS)
+
+map_thread.o: map_thread.cpp
+	$(CPP) -c map_thread.cpp -o map_thread.o $(CXXFLAGS)
+
+meow_char.o: meow_char.cpp
+	$(CPP) -c meow_char.cpp -o meow_char.o $(CXXFLAGS)
+
+meow_inv.o: meow_inv.cpp
+	$(CPP) -c meow_inv.cpp -o meow_inv.o $(CXXFLAGS)
+
+meow_sess.o: meow_sess.cpp
+	$(CPP) -c meow_sess.cpp -o meow_sess.o $(CXXFLAGS)
+
+meow_nice_pkt.o: meow_nice_pkt.cpp
+	$(CPP) -c meow_nice_pkt.cpp -o meow_nice_pkt.o $(CXXFLAGS)
+
+meow_npc.o: meow_npc.cpp
+	$(CPP) -c meow_npc.cpp -o meow_npc.o $(CXXFLAGS)
+
+meow_mob.o: meow_mob.cpp
+	$(CPP) -c meow_mob.cpp -o meow_mob.o $(CXXFLAGS)
+
+meow_portal.o: meow_portal.cpp
+	$(CPP) -c meow_portal.cpp -o meow_portal.o $(CXXFLAGS)
+
+meow_drop.o: meow_drop.cpp
+	$(CPP) -c meow_drop.cpp -o meow_drop.o $(CXXFLAGS)
+
+meow_server5_private.res: meow_server5_private.rc 
+	$(WINDRES) -i meow_server5_private.rc --input-format=rc -o meow_server5_private.res -O coff 
+

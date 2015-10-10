@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1162572796"/>
+  <Params Value=" -MObjFPC -Scghi -WR -O1 -g -gl -vewnhi &quot;-FuC:\Users\Gustavo\Desktop\AsdaStory (MicMac) File Server\_MEOW_alfa_0v05_release\src\MEOW_Indy\&quot; &quot;-FUC:\Users\Gustavo\Desktop\AsdaStory (MicMac) File Server\_MEOW_alfa_0v05_release\src\MEOW_Indy\lib\i386-win32\&quot; -l meow_indy.dpr"/>
+  <Complete Value="False"/>
+</CONFIG>

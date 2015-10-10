@@ -1,0 +1,12 @@
+MEOW server executable.
+Created using mingw c++ compiler and Bloodshed (c) Dev-C++ 4.9.9.2 IDE
+(visit http://www.blodshed.net)
+Note: should compile with typical Dev-C++ installation
+(use included .dev project file)
+The executable goes directly into bin\MEOW_SERVER folder of the 
+MEOW project installation. 
+(where also meow_indy.dll should already be placed)
+The project was once started on Pascal (nice tools to quickly build
+up from scratch). But then my friend Roan (the Rocket) told me to rewrite 
+all in C++ for serious programmers to work more easily with the sources.
+Thanks to my friend for this advice and for great help with C coding.

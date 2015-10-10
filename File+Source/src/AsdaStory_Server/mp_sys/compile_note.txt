@@ -1,0 +1,10 @@
+MP_SYS library.
+Created using mingw c++ compiler and Bloodshed (c) Dev-C++ 4.9.9.2 IDE
+(visit http://www.blodshed.net)
+Note: compile as a library (use included dev-cpp project file)
+then use for link with when linking MEOW server.
+Compile without ZIP support - zip support is not included into  (this) 
+MEOW project distribution.
+Also note that this is NOT FULL version of the library. Some files
+were striped out due to no use for the MEOW project. However it compiles 
+successfully with Dev-C++ . 
